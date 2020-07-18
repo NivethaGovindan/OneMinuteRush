@@ -1,0 +1,404 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+wordsearch
+</name>
+</assembly>
+<members>
+<member name="T:wordsearch.MiniGameDataSet.picquizleaderboardDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet.wordsearchleaderboardDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet.wordsearchtableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet.picquizleaderboardRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet.wordsearchleaderboardRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet.wordsearchtableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet.picquizleaderboardRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet.wordsearchleaderboardRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet.wordsearchtableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSetTableAdapters.picquizleaderboardTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSetTableAdapters.wordsearchleaderboardTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSetTableAdapters.wordsearchtableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:wordsearch.MiniGameDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(wordsearch.MiniGameDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:wordsearch.MiniGameDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(wordsearch.MiniGameDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:wordsearch.MiniGameDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(wordsearch.MiniGameDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:wordsearch.MiniGameDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:wordsearch.MiniGameDataSetTableAdapters.TableAdapterManager.UpdateAll(wordsearch.MiniGameDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.alovera">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.angioplasty">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.avatar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.bg2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.bg3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.bg4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.brownbg">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.Charles_Dickens">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.Dan_brown">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.dennis">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.Doraemon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.ecg">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.friends">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.Gandhari">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.Gulab_Jamun">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.harper_lee">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.IMG_20151016_061524648">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.jhansi">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.lincoln">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.mark__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.mg">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.nemo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.paris">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.ponniyin_selvan">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.ratatouille">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.remo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.Ronaldo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.shinchan">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.sindhu">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.sitar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.usa">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:wordsearch.My.Resources.Resources.venice">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:wordsearch.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet1.picquizleaderboardDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet1.wordsearchleaderboardDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet1.wordsearchtableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet1.picquizleaderboardRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet1.wordsearchleaderboardRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet1.wordsearchtableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet1.picquizleaderboardRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet1.wordsearchleaderboardRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet1.wordsearchtableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet1TableAdapters.picquizleaderboardTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet1TableAdapters.wordsearchleaderboardTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet1TableAdapters.wordsearchtableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:wordsearch.MiniGameDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(wordsearch.MiniGameDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:wordsearch.MiniGameDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(wordsearch.MiniGameDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:wordsearch.MiniGameDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(wordsearch.MiniGameDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:wordsearch.MiniGameDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:wordsearch.MiniGameDataSet1TableAdapters.TableAdapterManager.UpdateAll(wordsearch.MiniGameDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:wordsearch.MiniGameDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:wordsearch.mgDataSet.picquizleaderboardDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:wordsearch.mgDataSet.wordsearchleaderboardDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:wordsearch.mgDataSet.wordsearchtableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:wordsearch.mgDataSet.picquizleaderboardRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:wordsearch.mgDataSet.wordsearchleaderboardRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:wordsearch.mgDataSet.wordsearchtableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:wordsearch.mgDataSet.picquizleaderboardRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:wordsearch.mgDataSet.wordsearchleaderboardRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:wordsearch.mgDataSet.wordsearchtableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:wordsearch.mgDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:wordsearch.mgDataSetTableAdapters.picquizleaderboardTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:wordsearch.mgDataSetTableAdapters.wordsearchleaderboardTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:wordsearch.mgDataSetTableAdapters.wordsearchtableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:wordsearch.mgDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(wordsearch.mgDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:wordsearch.mgDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(wordsearch.mgDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:wordsearch.mgDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(wordsearch.mgDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:wordsearch.mgDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:wordsearch.mgDataSetTableAdapters.TableAdapterManager.UpdateAll(wordsearch.mgDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:wordsearch.mgDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:wordsearch.mgDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:wordsearch.mgDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
